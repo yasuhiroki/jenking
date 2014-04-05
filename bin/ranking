@@ -1,0 +1,91 @@
+#!/usr/bin/env python
+# coding:utf-8
+
+from http.client import HTTPConnection 
+import threading
+import itertools
+import time
+import operator
+
+import sys, os
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../lib'))
+from creator import StatsHtmlParser
+from stats import PluginStats 
+from creator import PluginStatsCreator 
+from creator import PluginStatsFormatter
+
+thread_num = 16
+
+print("Instantiate HTTPConnection")
+conn = HTTPConnection("stats.jenkins-ci.org")
+
+print("Request")
+conn.request("GET", "/plugin-installation-trend/")
+
+print("Get Response")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+
+print("Show got data")
+data = r1.read()
+
+print("Parse HTML")
+parser = StatsHtmlParser(strict=False)
+parser.feed(str(data))
+
+#parser.json_list = parser.json_list[0:20]
+separate_num = int(len(parser.json_list) / thread_num)
+if len(parser.json_list) % thread_num > 0:
+    separate_num += 1
+plugin_total = len(parser.json_list)
+print("total: ", str(plugin_total), "separate: ", str(separate_num))
+plugins_list = list(itertools.zip_longest(*[iter(parser.json_list)]*separate_num))
+
+print("Create plugin data objects")
+thread = []
+creator_list = []
+start_time = time.clock()
+for i in range(len(plugins_list)):
+    creator_list.append(PluginStatsCreator(i))
+    thread.append(threading.Thread(target=creator_list[i].create_plugin_stats, args=([plugins_list[i]])))
+    thread[i].daemon = True
+    print("Thread start")
+    thread[i].start()
+    time.sleep(0.1)
+
+thread_alive = True
+print(str(thread_alive))
+
+while thread_alive:
+    thread_alive = False
+    time.sleep(5)
+    for mng in creator_list:
+        if not mng.thread_finish:
+            thread_alive = True
+            print("Thread [", str(mng.id), "] is alive")
+conn.close()
+"""
+    for _thread in thread:
+        if _thread.isAlive():
+            print(str(_thread), " is alive")
+            thread_alive = True
+"""
+
+end_time = time.clock()
+
+plugin_stats_list = []
+for _creator in creator_list:
+    plugin_stats_list.extend(_creator.plugin_stats_list)
+
+formatter = PluginStatsFormatter()
+formatter.set_plugin_stats_list(plugin_stats_list)
+formatter.dump()
+#plugin_stats_list.sort(key=operator.attrgetter('total_installation'), reverse=False)
+#for plugin_data in plugin_stats_list:
+#    print(plugin_data.name, ": ", plugin_data.total_installation)
+
+print("")
+print("-" * 50)
+print("Thread process time: ", str(end_time - start_time))
+print("Plugin total number: ", str(plugin_total))
+print("Separated plugin total: ", str(len(plugin_stats_list)))
