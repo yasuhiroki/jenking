@@ -6,12 +6,11 @@ from stats import PluginStats
 
 
 class PluginStatsCreator():
-    plugin_stats_list = []
-    thread_finish = False
-    id = None
 
     def __init__(self, id):
         self.id = id
+        self.plugin_stats_list = []
+        self.thread_finish = False
 
     def create_plugin_stats(self, plugin_names):
         print("[Thread] ", self.id, " Create plugin datas")
@@ -61,7 +60,8 @@ class PluginStatsFormatter():
     import sys, os
     default_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../js/stats.json')
 
-    plugin_stats_list = []
+    def __init__(self):
+        plugin_stats_list = []
 
     def set_plugin_stats_list(self, plugin_stats_list):
         self.plugin_stats_list = plugin_stats_list
@@ -69,6 +69,7 @@ class PluginStatsFormatter():
     def dump(self, file_name=""):
         if file_name == "":
             file_name = self.default_file_path
+        self.plugin_stats_list = self._sort_total_installation(self.plugin_stats_list)
         json_str = json.dumps(self._merge_stats(), sort_keys=True, indent=4)
         print(json_str) 
         f = open(file_name,  'w')
@@ -76,7 +77,13 @@ class PluginStatsFormatter():
         f.close()
 
     def _merge_stats(self):
-        rtn = {}
+        rtn = {"plugins":[]}
         for _stats in self.plugin_stats_list:
-            rtn[_stats.json['name']] = _stats.json
+            rtn["plugins"].append(_stats.json)
+            rtn["plugins"][len(rtn["plugins"]) - 1]['total_installation'] = str(_stats.total_installation)
         return rtn
+
+    def _sort_total_installation(self, stats_list):
+        import operator
+        stats_list.sort(key=operator.attrgetter('total_installation'), reverse=True)
+        return stats_list

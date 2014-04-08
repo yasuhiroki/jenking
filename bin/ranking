@@ -3,10 +3,8 @@
 
 from http.client import HTTPConnection 
 import threading
-import itertools
 import time
-import operator
-
+import itertools
 import sys, os
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../lib'))
 from creator import StatsHtmlParser
@@ -14,7 +12,7 @@ from stats import PluginStats
 from creator import PluginStatsCreator 
 from creator import PluginStatsFormatter
 
-thread_num = 16
+thread_num = 64
 
 print("Instantiate HTTPConnection")
 conn = HTTPConnection("stats.jenkins-ci.org")
@@ -80,9 +78,6 @@ for _creator in creator_list:
 formatter = PluginStatsFormatter()
 formatter.set_plugin_stats_list(plugin_stats_list)
 formatter.dump()
-#plugin_stats_list.sort(key=operator.attrgetter('total_installation'), reverse=False)
-#for plugin_data in plugin_stats_list:
-#    print(plugin_data.name, ": ", plugin_data.total_installation)
 
 print("")
 print("-" * 50)
