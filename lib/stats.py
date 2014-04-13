@@ -15,5 +15,4 @@ class PluginStats:
         json_d = json.loads(json_data)
         self.json = json_d
         self.name = json_d["name"]
-        for time, installation in self.json["installations"].items():
-            self.total_installation += int(installation)
+        self.total_installation = json_d["installations"][str(max(map(int, json_d["installations"].keys())))]
