@@ -17,16 +17,18 @@ $(function(){
 
     });
 
-    var stats_th = $('#fixed'),
+    /*
+    var stats_th = $('table.stats thead'),
     offset = stats_th.offset();
 
     $(window).scroll(function () {
-        if((window).scrollTop() > offset.top) {
+        if($(window).scrollTop() > offset.top) {
             nav.addClass('fixed');
         } else {
             nav.removeClass('fixed');
         }
     });
+    */
 });
 
 function appendPluginRows(plugins){
