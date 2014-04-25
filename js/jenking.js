@@ -50,7 +50,7 @@ function appendPluginRows(plugins){
 
         $('<tr id="'+ cnt +'" class="plugin">' +
           '<td>' + (cnt + 1) + '</td>' +
-          '<td>' + this.name + '</td>' +
+          '<td><a href="' + this.plugin_info_url + '">' + this.name + '</a></td>' +
           '<td>' + this.total_installation + '</td>' +
           '</tr>'
          ).appendTo('table.stats tbody');

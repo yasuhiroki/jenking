@@ -12,7 +12,7 @@ from stats import PluginStats
 from creator import PluginStatsCreator 
 from creator import PluginStatsFormatter
 
-thread_num = 64
+thread_num = 16
 
 print("Instantiate HTTPConnection")
 conn = HTTPConnection("stats.jenkins-ci.org")
@@ -23,6 +23,7 @@ conn.request("GET", "/plugin-installation-trend/")
 print("Get Response")
 r1 = conn.getresponse()
 print(r1.status, r1.reason)
+conn.close()
 
 print("Show got data")
 data = r1.read()
@@ -57,11 +58,12 @@ print(str(thread_alive))
 while thread_alive:
     thread_alive = False
     time.sleep(5)
+    alive_thread_list = []
     for mng in creator_list:
         if not mng.thread_finish:
+            alive_thread_list.append(mng.id)
             thread_alive = True
-            print("Thread [", str(mng.id), "] is alive")
-conn.close()
+    print("Thread [", str(alive_thread_list), "] is alive")
 """
     for _thread in thread:
         if _thread.isAlive():
