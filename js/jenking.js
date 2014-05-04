@@ -2,6 +2,8 @@ $(function(){
 
     $.getJSON("js/stats.json", function(data){
 
+        setModifyDate(data.Modify_date)
+
         console.log("Plugins: " + data.plugins.length)
 
         for (var i = 1; i <= data.plugins.length / 100; i++) {
@@ -30,6 +32,14 @@ $(function(){
     });
     */
 });
+
+function setModifyDate(date_str){
+
+    $('<b>' +
+      'Last Modify: ' + date_str +
+      '</b>'
+     ).appendTo('div.sidebar');
+}
 
 function appendPluginRows(plugins){
 

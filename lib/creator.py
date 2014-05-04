@@ -5,6 +5,7 @@ import sys
 from lxml import etree
 from html.parser import HTMLParser 
 from html.entities import name2codepoint 
+from datetime import date
 from stats import PluginStats 
 
 
@@ -93,7 +94,9 @@ class PluginStatsFormatter():
         if file_name == "":
             file_name = self.default_file_path
         self.plugin_stats_list = self._sort_total_installation(self.plugin_stats_list)
-        json_str = json.dumps(self._merge_stats(), sort_keys=True, indent=4)
+        merged_data = self._merge_stats()
+        merged_data["Modify_date"] = str(date.today())
+        json_str = json.dumps(merged_data, sort_keys=True, indent=4)
         f = open(file_name,  'w')
         f.write(json_str)
         f.close()
