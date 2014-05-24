@@ -6,9 +6,12 @@ class PluginStats:
     def __init__(self, json_data):
         self.json = None
         self.name = None
+        self.title = None
         self.json_url = None
         self.total_installation = 0
         self.plugin_info_url = None
+        self.describe = None
+        self.last_modify = None
 
         self.create_plugin_data_from_json(json_data)
 
@@ -21,4 +24,7 @@ class PluginStats:
     def get_json(self):
         self.json['total_installation'] = str(self.total_installation)
         self.json['plugin_info_url'] = str(self.plugin_info_url)
+        self.json['describe'] = str(self.describe)
+        self.json['last_modify'] = str(self.last_modify)
+        self.json['title'] = str(self.title)
         return self.json

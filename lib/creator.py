@@ -11,10 +11,12 @@ from stats import PluginStats
 
 class PluginStatsCreator():
 
-    def __init__(self, id):
+    def __init__(self, id, update_json):
         self.id = id
         self.plugin_stats_list = []
         self.thread_finish = False
+
+        self.update_json = update_json
 
     def create_plugin_stats(self, plugin_names):
         cnt = 0
@@ -33,20 +35,16 @@ class PluginStatsCreator():
                 logging.warn(sys.exc_info())
                 continue
 
-            plugin_search_url = (
-                "https://wiki.jenkins-ci.org/dosearchsite.action?queryString=" + 
-                plugin_json[0:plugin_json.find(".stats.json")]
-                )
-            print("[Thread {0:4}] Get data: [{1}]".format(self.id, plugin_search_url))
             try:
-                r = requests.get(plugin_search_url, timeout=10.0)
-                tree = etree.HTML(r.text)
-                first_link = tree.find(".//h3/a")
-                stats.plugin_info_url = "https://wiki.jenkins-ci.org" + first_link.attrib["href"]
-            except:
-                logging.warn(sys.exc_info())
-                continue
+                stats.title = self.update_json['plugins'][stats.name]['title']
+                stats.describe = self.update_json['plugins'][stats.name]['excerpt']
+                stats.plugin_info_url = self.update_json['plugins'][stats.name]['wiki']
+                stats.last_modify = self.update_json['plugins'][stats.name]['releaseTimestamp']
+            except KeyError:
+                print("Key Error occured")
+
             self.plugin_stats_list.append(stats)
+
         self.thread_finish = True
         print("[Thread {0:4}] Finish".format(self.id))
 

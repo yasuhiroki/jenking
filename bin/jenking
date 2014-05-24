@@ -6,6 +6,8 @@ import threading
 import time
 import itertools
 import sys, os
+import requests
+import json
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../lib'))
 from creator import StatsHtmlParser
 from stats import PluginStats 
@@ -32,6 +34,12 @@ print("Parse HTML")
 parser = StatsHtmlParser(strict=False)
 parser.feed(str(data))
 
+
+print("Get update json data")
+update_json_url = "http://mirror.xmission.com/jenkins/updates/update-center.json"
+r = requests.get(update_json_url, timeout=5.0)
+update_json = json.loads(r.text[r.text.find('(')+1:r.text.rfind(')')-1])
+
 #parser.json_list = parser.json_list[0:20]
 separate_num = int(len(parser.json_list) / thread_num)
 if len(parser.json_list) % thread_num > 0:
@@ -45,7 +53,7 @@ thread = []
 creator_list = []
 start_time = time.clock()
 for i in range(len(plugins_list)):
-    creator_list.append(PluginStatsCreator(i))
+    creator_list.append(PluginStatsCreator(i, update_json))
     thread.append(threading.Thread(target=creator_list[i].create_plugin_stats, args=([plugins_list[i]])))
     thread[i].daemon = True
     print("Thread start")
