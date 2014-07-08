@@ -3,11 +3,11 @@
 
 from http.client import HTTPConnection 
 import threading
-import itertools
 import time
-import operator
-
+import itertools
 import sys, os
+import requests
+import json
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../lib'))
 from creator import StatsHtmlParser
 from stats import PluginStats 
@@ -25,6 +25,7 @@ conn.request("GET", "/plugin-installation-trend/")
 print("Get Response")
 r1 = conn.getresponse()
 print(r1.status, r1.reason)
+conn.close()
 
 print("Show got data")
 data = r1.read()
@@ -32,6 +33,12 @@ data = r1.read()
 print("Parse HTML")
 parser = StatsHtmlParser(strict=False)
 parser.feed(str(data))
+
+
+print("Get update json data")
+update_json_url = "http://mirror.xmission.com/jenkins/updates/update-center.json"
+r = requests.get(update_json_url, timeout=5.0)
+update_json = json.loads(r.text[r.text.find('(')+1:r.text.rfind(')')-1])
 
 #parser.json_list = parser.json_list[0:20]
 separate_num = int(len(parser.json_list) / thread_num)
@@ -46,7 +53,7 @@ thread = []
 creator_list = []
 start_time = time.clock()
 for i in range(len(plugins_list)):
-    creator_list.append(PluginStatsCreator(i))
+    creator_list.append(PluginStatsCreator(i, update_json))
     thread.append(threading.Thread(target=creator_list[i].create_plugin_stats, args=([plugins_list[i]])))
     thread[i].daemon = True
     print("Thread start")
@@ -59,11 +66,12 @@ print(str(thread_alive))
 while thread_alive:
     thread_alive = False
     time.sleep(5)
+    alive_thread_list = []
     for mng in creator_list:
         if not mng.thread_finish:
+            alive_thread_list.append(mng.id)
             thread_alive = True
-            print("Thread [", str(mng.id), "] is alive")
-conn.close()
+    print("Thread [", str(alive_thread_list), "] is alive")
 """
     for _thread in thread:
         if _thread.isAlive():
@@ -80,9 +88,6 @@ for _creator in creator_list:
 formatter = PluginStatsFormatter()
 formatter.set_plugin_stats_list(plugin_stats_list)
 formatter.dump()
-#plugin_stats_list.sort(key=operator.attrgetter('total_installation'), reverse=False)
-#for plugin_data in plugin_stats_list:
-#    print(plugin_data.name, ": ", plugin_data.total_installation)
 
 print("")
 print("-" * 50)

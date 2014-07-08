@@ -1,31 +1,52 @@
+import logging
 import requests
 import json
+import sys
+from lxml import etree
 from html.parser import HTMLParser 
 from html.entities import name2codepoint 
+from datetime import date
 from stats import PluginStats 
 
 
 class PluginStatsCreator():
-    plugin_stats_list = []
-    thread_finish = False
-    id = None
 
-    def __init__(self, id):
+    def __init__(self, id, update_json):
         self.id = id
+        self.plugin_stats_list = []
+        self.thread_finish = False
+
+        self.update_json = update_json
 
     def create_plugin_stats(self, plugin_names):
-        print("[Thread] ", self.id, " Create plugin datas")
-        for plugin_json_url in plugin_names:
-            if plugin_json_url is None:
+        cnt = 0
+        sum_plugins = len(plugin_names)
+        for plugin_json in plugin_names:
+            cnt += 1
+            print("[Thread {0:4}] Create plugin datas [{1}/{2}]".format(self.id, str(cnt), str(sum_plugins)))
+            if plugin_json is None:
                 continue
-            print("[Thraed ", self.id, "] Get data: ", plugin_json_url)
+            stats_file_url = "http://stats.jenkins-ci.org/plugin-installation-trend/" + plugin_json
+            print("[Thread {0:4}] Get data: [{1}]".format(self.id, stats_file_url))
             try:
-                r = requests.get("http://stats.jenkins-ci.org/plugin-installation-trend/" + plugin_json_url, timeout=5.0)
+                r = requests.get(stats_file_url, timeout=5.0)
+                stats = PluginStats(r.text)
             except:
+                logging.warn(sys.exc_info())
                 continue
-            self.plugin_stats_list.append(PluginStats(r.text))
+
+            try:
+                stats.title = self.update_json['plugins'][stats.name]['title']
+                stats.describe = self.update_json['plugins'][stats.name]['excerpt']
+                stats.plugin_info_url = self.update_json['plugins'][stats.name]['wiki']
+                stats.last_modify = self.update_json['plugins'][stats.name]['releaseTimestamp']
+            except KeyError:
+                print("Key Error occured")
+
+            self.plugin_stats_list.append(stats)
+
         self.thread_finish = True
-        print("[Thread] Finish")
+        print("[Thread {0:4}] Finish".format(self.id))
 
     def create_plugin_data(self, plugin_datas):
         return False
@@ -61,7 +82,8 @@ class PluginStatsFormatter():
     import sys, os
     default_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../js/stats.json')
 
-    plugin_stats_list = []
+    def __init__(self):
+        plugin_stats_list = []
 
     def set_plugin_stats_list(self, plugin_stats_list):
         self.plugin_stats_list = plugin_stats_list
@@ -69,14 +91,21 @@ class PluginStatsFormatter():
     def dump(self, file_name=""):
         if file_name == "":
             file_name = self.default_file_path
-        json_str = json.dumps(self._merge_stats(), sort_keys=True, indent=4)
-        print(json_str) 
+        self.plugin_stats_list = self._sort_total_installation(self.plugin_stats_list)
+        merged_data = self._merge_stats()
+        merged_data["Modify_date"] = str(date.today())
+        json_str = json.dumps(merged_data, sort_keys=True, indent=4)
         f = open(file_name,  'w')
         f.write(json_str)
         f.close()
 
     def _merge_stats(self):
-        rtn = {}
+        rtn = {"plugins":[]}
         for _stats in self.plugin_stats_list:
-            rtn[_stats.json['name']] = _stats.json
+            rtn["plugins"].append(_stats.get_json())
         return rtn
+
+    def _sort_total_installation(self, stats_list):
+        import operator
+        stats_list.sort(key=operator.attrgetter('total_installation'), reverse=True)
+        return stats_list
