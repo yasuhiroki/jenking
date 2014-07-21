@@ -16,8 +16,13 @@ $(function(){
         }
 
         appendPluginRows(data.plugins)
+        $('table.stats').dataTable({
+            paging: false
+        });
 
     });
+
+
 
     /*
     var stats_th = $('table.stats thead'),
