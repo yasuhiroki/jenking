@@ -1,5 +1,5 @@
 {
-    "Modify_date": "2014-07-08",
+    "Modify_date": "2014-07-21",
     "plugins": [
         {
             "describe": "This plugin allows you to manage slaves running on \\*nix machines over SSH.",
@@ -277,7 +277,7 @@
                 "1396324800000": 96.86939039276226,
                 "1398916800000": 97.09353531794962
             },
-            "last_modify": "2014-07-03T16:54:58.00Z",
+            "last_modify": "2014-07-11T19:57:28.00Z",
             "name": "maven-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Maven+Project+Plugin",
             "title": "Maven Project Plugin",
@@ -549,7 +549,7 @@
                 "1396324800000": 95.3926425887365,
                 "1398916800000": 95.41894192942281
             },
-            "last_modify": "2014-05-16T18:02:02.00Z",
+            "last_modify": "2014-07-16T13:23:12.00Z",
             "name": "subversion",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Subversion+Plugin",
             "title": "Subversion Plugin",
@@ -1041,7 +1041,7 @@
                 "1396324800000": 89.4389794404155,
                 "1398916800000": 90.29769244319182
             },
-            "last_modify": "2013-12-17T23:03:14.00Z",
+            "last_modify": "2014-07-08T18:12:48.00Z",
             "name": "mailer",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Mailer",
             "title": "Mailer",
@@ -1109,7 +1109,7 @@
                 "1396324800000": 86.4795002513104,
                 "1398916800000": 87.76818742293464
             },
-            "last_modify": "2014-06-16T18:15:42.00Z",
+            "last_modify": "2014-07-10T15:54:52.00Z",
             "name": "credentials",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Credentials+Plugin",
             "title": "Credentials Plugin",
@@ -1463,7 +1463,7 @@
                 "1396324800000": 43.932648811660805,
                 "1398916800000": 44.921613528271976
             },
-            "last_modify": "2014-05-21T11:22:00.00Z",
+            "last_modify": "2014-07-16T10:31:46.00Z",
             "name": "git-client",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Git+Client+Plugin",
             "title": "Git Client Plugin",
@@ -2593,7 +2593,7 @@
                 "1396324800000": 13.992005935712406,
                 "1398916800000": 14.345605073101991
             },
-            "last_modify": "2014-02-16T17:40:36.00Z",
+            "last_modify": "2014-07-21T13:18:28.00Z",
             "name": "copyartifact",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Copy+Artifact+Plugin",
             "title": "Copy Artifact Plugin",
@@ -2863,7 +2863,7 @@
                 "1396324800000": 13.808908355472584,
                 "1398916800000": 13.893488344783043
             },
-            "last_modify": "2013-10-27T15:16:08.00Z",
+            "last_modify": "2014-07-15T02:25:06.00Z",
             "name": "dashboard-view",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Dashboard+View",
             "title": "Dashboard View",
@@ -2997,7 +2997,7 @@
                 "1396324800000": 13.613843613125583,
                 "1398916800000": 13.813633961599436
             },
-            "last_modify": "2014-07-01T18:37:56.00Z",
+            "last_modify": "2014-07-16T13:48:04.00Z",
             "name": "github",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin",
             "title": "GitHub Plugin",
@@ -5155,7 +5155,7 @@
                 "1396324800000": 9.604844307220986,
                 "1398916800000": 9.74575773589337
             },
-            "last_modify": "2014-04-14T15:04:50.00Z",
+            "last_modify": "2014-07-17T15:00:20.00Z",
             "name": "jobConfigHistory",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin",
             "title": "JobConfigHistory Plugin",
@@ -6855,7 +6855,7 @@
                 "1396324800000": 6.228907876786099,
                 "1398916800000": 6.634959779226117
             },
-            "last_modify": "2013-06-30T00:59:34.00Z",
+            "last_modify": "2014-07-17T04:59:50.00Z",
             "name": "gradle",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Gradle+Plugin",
             "title": "Gradle Plugin",
@@ -10667,7 +10667,7 @@
                 "1396324800000": 4.43024341207726,
                 "1398916800000": 4.336797604368504
             },
-            "last_modify": "2011-11-04T02:19:06.00Z",
+            "last_modify": "2014-07-17T14:07:04.00Z",
             "name": "svn-tag",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Subversion+Tagging+Plugin",
             "title": "Subversion Tagging Plugin",
@@ -13891,7 +13891,7 @@
                 "1396324800000": 3.3879035925420644,
                 "1398916800000": 3.4172978685925663
             },
-            "last_modify": "2014-06-29T04:00:56.00Z",
+            "last_modify": "2014-07-20T22:50:42.00Z",
             "name": "testng-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/testng-plugin",
             "title": "testng-plugin",
@@ -15055,7 +15055,7 @@
                 "1396324800000": 2.791938919604605,
                 "1398916800000": 3.07556808173331
             },
-            "last_modify": "2014-06-29T22:06:18.00Z",
+            "last_modify": "2014-07-14T20:55:54.00Z",
             "name": "build-monitor-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Build+Monitor+Plugin",
             "title": "Build Monitor Plugin",
@@ -16769,7 +16769,7 @@
                 "1396324800000": 2.649529690529188,
                 "1398916800000": 2.6328459867300804
             },
-            "last_modify": "2012-09-17T14:20:18.00Z",
+            "last_modify": "2014-07-19T19:11:48.00Z",
             "name": "ci-game",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/The+Continuous+Integration+Game+plugin",
             "title": "The Continuous Integration Game plugin",
@@ -17188,7 +17188,7 @@
             "total_installation": "2122"
         },
         {
-            "describe": "This plugin allows you to capture code coverage reports from <a href='http://atlassian.com/software/clover/'>Clover</a>. Hudson will generate and track code coverage across time. This plugin can be used without the need to modify your build.xml. ",
+            "describe": "This plugin allows you to capture code coverage reports from <a href='http://atlassian.com/software/clover/'>Clover</a>. Jenkins will generate and track code coverage across time. This plugin can be used without the need to modify your build.xml. ",
             "installations": {
                 "1228107600000": 52,
                 "1230786000000": 199,
@@ -17325,7 +17325,7 @@
                 "1396324800000": 2.592087312414734,
                 "1398916800000": 2.483706182843051
             },
-            "last_modify": "2014-04-01T20:08:04.00Z",
+            "last_modify": "2014-07-18T15:45:30.00Z",
             "name": "clover",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Clover+Plugin",
             "title": "Clover Plugin",
@@ -18037,7 +18037,7 @@
                 "1396324800000": 2.3276130298461024,
                 "1398916800000": 2.412072103810698
             },
-            "last_modify": "2014-06-17T13:03:38.00Z",
+            "last_modify": "2014-07-08T17:10:38.00Z",
             "name": "next-executions",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Next+Executions",
             "title": "Next Executions",
@@ -18505,7 +18505,7 @@
                 "1396324800000": 2.157679327924176,
                 "1398916800000": 2.294639187364218
             },
-            "last_modify": "2014-05-30T15:09:54.00Z",
+            "last_modify": "2014-07-09T12:05:16.00Z",
             "name": "hipchat",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/HipChat+Plugin",
             "title": "HipChat Plugin",
@@ -18707,7 +18707,7 @@
                 "1396324800000": 2.2797443814173906,
                 "1398916800000": 2.266455287417063
             },
-            "last_modify": "2014-03-12T20:58:20.00Z",
+            "last_modify": "2014-07-09T15:46:34.00Z",
             "name": "template-project",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Template+Project+Plugin",
             "title": "Template Project Plugin",
@@ -21213,7 +21213,7 @@
                 "1396324800000": 1.7448122352265383,
                 "1398916800000": 1.8601373965122423
             },
-            "last_modify": "2013-09-02T15:19:20.00Z",
+            "last_modify": "2014-07-15T15:10:40.00Z",
             "name": "gitlab-hook",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Gitlab+Hook+Plugin",
             "title": "Gitlab Hook Plugin",
@@ -22963,7 +22963,7 @@
                 "1396324800000": 1.6742059787941888,
                 "1398916800000": 1.5853443720274794
             },
-            "last_modify": "2011-02-14T15:47:26.00Z",
+            "last_modify": "2014-07-09T17:40:06.00Z",
             "name": "ldapemail",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/LDAP+Email+Plugin",
             "title": "LDAP Email Plugin",
@@ -28495,7 +28495,7 @@
                 "1396324800000": 1.005241617002944,
                 "1398916800000": 1.047501614702601
             },
-            "last_modify": "2012-02-18T23:33:48.00Z",
+            "last_modify": "2014-07-19T01:27:22.00Z",
             "name": "repository-connector",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Repository+Connector+Plugin",
             "title": "Repository Connector Plugin",
@@ -29139,7 +29139,7 @@
                 "1396324800000": 1.0064383332136617,
                 "1398916800000": 1.0240150314133052
             },
-            "last_modify": "2014-05-28T16:08:22.00Z",
+            "last_modify": "2014-07-15T16:17:44.00Z",
             "name": "svnmerge",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Subversion+Merge+Plugin",
             "title": "Subversion Merge Plugin",
@@ -31971,7 +31971,7 @@
                 "1396324800000": 0.828127617816711,
                 "1398916800000": 0.837296694263402
             },
-            "last_modify": "2011-09-22T14:07:48.00Z",
+            "last_modify": "2014-07-11T21:42:20.00Z",
             "name": "multi-slave-config-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Multi+slave+config+plugin",
             "title": "Multi slave config plugin",
@@ -33681,7 +33681,7 @@
                 "1396324800000": 0.7228165912735454,
                 "1398916800000": 0.7327813986260349
             },
-            "last_modify": "2014-05-15T13:50:22.00Z",
+            "last_modify": "2014-07-08T11:16:42.00Z",
             "name": "vsphere-cloud",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/vSphere+Cloud+Plugin",
             "title": "vSphere Cloud Plugin",
@@ -36369,7 +36369,7 @@
                 "1396324800000": 0.6474234699983246,
                 "1398916800000": 0.6376607363043861
             },
-            "last_modify": "2014-07-06T12:44:26.00Z",
+            "last_modify": "2014-07-13T01:01:28.00Z",
             "name": "sauce-ondemand",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Sauce+OnDemand+Plugin",
             "title": "Sauce OnDemand Plugin",
@@ -38535,7 +38535,7 @@
                 "1396324800000": 0.5050142409229076,
                 "1398916800000": 0.5343197698314838
             },
-            "last_modify": "2014-06-28T20:34:14.00Z",
+            "last_modify": "2014-07-20T23:38:02.00Z",
             "name": "simple-parameterized-builds-report",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Simple+Parameterized+Builds+Report+plugin",
             "title": "Simple Parameterized Builds Report plugin",
@@ -40137,7 +40137,7 @@
                 "1396324800000": 0.4463751465977358,
                 "1398916800000": 0.4756033116082438
             },
-            "last_modify": "2014-06-11T11:19:16.00Z",
+            "last_modify": "2014-07-10T14:14:02.00Z",
             "name": "teamconcert",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Team+Concert+Plugin",
             "title": "Team Concert Plugin",
@@ -42951,7 +42951,7 @@
                 "1396324800000": 0.399703214379742,
                 "1398916800000": 0.3793083201221302
             },
-            "last_modify": "2014-04-04T20:09:22.00Z",
+            "last_modify": "2014-07-10T12:05:22.00Z",
             "name": "accurev",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/AccuRev+Plugin",
             "title": "AccuRev Plugin",
@@ -43251,7 +43251,7 @@
                 "1396324800000": 0.37816232258682175,
                 "1398916800000": 0.374611003464271
             },
-            "last_modify": "2013-08-16T18:22:54.00Z",
+            "last_modify": "2014-07-08T13:02:22.00Z",
             "name": "patch-parameter",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Patch+Parameter+Plugin",
             "title": "Patch Parameter Plugin",
@@ -43285,7 +43285,7 @@
                 "1396324800000": 0.33747397142241686,
                 "1398916800000": 0.37108801597087665
             },
-            "last_modify": "2013-08-20T21:34:02.00Z",
+            "last_modify": "2014-07-14T23:33:28.00Z",
             "name": "cucumber-perf",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Cucumber+Performance+Reports+Plugin",
             "title": "Cucumber Performance Reports Plugin",
@@ -52387,7 +52387,7 @@
                 "1396324800000": 0.14360594528613485,
                 "1398916800000": 0.1890669954788327
             },
-            "last_modify": "2014-04-01T05:17:42.00Z",
+            "last_modify": "2014-07-16T04:04:50.00Z",
             "name": "capitomcat",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Capitomcat+Plugin",
             "title": "Capitomcat Plugin",
@@ -52597,7 +52597,7 @@
                 "1396324800000": 0.171130418132644,
                 "1398916800000": 0.18436967882097352
             },
-            "last_modify": "2013-10-21T14:04:16.00Z",
+            "last_modify": "2014-07-18T21:52:02.00Z",
             "name": "prqa-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/PRQA+Plugin",
             "title": "PRQA Plugin",
@@ -53003,7 +53003,7 @@
                 "1396324800000": 0.15557310739331276,
                 "1398916800000": 0.17732370383418472
             },
-            "last_modify": "2014-07-04T16:01:14.00Z",
+            "last_modify": "2014-07-08T21:34:06.00Z",
             "name": "support-core",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Support+Core+Plugin",
             "title": "Support Core Plugin",
@@ -53399,7 +53399,7 @@
                 "1396324800000": 0.15437639118259497,
                 "1398916800000": 0.17027772884739592
             },
-            "last_modify": "2014-06-25T18:27:28.00Z",
+            "last_modify": "2014-07-18T19:51:10.00Z",
             "name": "wix",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/WIX+Toolset+Plugin",
             "title": "WIX Toolset Plugin",
@@ -53811,7 +53811,7 @@
                 "1396324800000": 0.1723271343433618,
                 "1398916800000": 0.16323175386060712
             },
-            "last_modify": "2014-04-14T23:18:30.00Z",
+            "last_modify": "2014-07-18T14:45:52.00Z",
             "name": "fogbugz",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Fogbugz+Plugin",
             "title": "Fogbugz Plugin",
@@ -53957,7 +53957,7 @@
                 "1396324800000": 0.16035997223618392,
                 "1398916800000": 0.16205742469614232
             },
-            "last_modify": "2014-02-03T20:25:28.00Z",
+            "last_modify": "2014-07-18T12:37:48.00Z",
             "name": "periodic-reincarnation",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Periodic+Reincarnation+Plugin",
             "title": "Periodic Reincarnation Plugin",
@@ -57127,7 +57127,7 @@
                 "1396324800000": 0.07299968885378522,
                 "1398916800000": 0.11273559978862074
             },
-            "last_modify": "2014-03-18T14:37:04.00Z",
+            "last_modify": "2014-07-15T13:16:34.00Z",
             "name": "google-oauth-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Google+OAuth+Plugin",
             "title": "Google OAuth Plugin",
@@ -57172,7 +57172,7 @@
             "total_installation": "96"
         },
         {
-            "describe": "",
+            "describe": "The Script SCM plugin allows SCM polling to be managed using scripts.",
             "installations": {
                 "1325394000000": 3,
                 "1328072400000": 4,
@@ -57237,8 +57237,8 @@
             },
             "last_modify": "2013-09-29T22:17:50.00Z",
             "name": "script-scm",
-            "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Script+SCM+Plugin",
-            "title": "Script SCM Plugin",
+            "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/script-scm",
+            "title": "script-scm",
             "total_installation": "96"
         },
         {
@@ -57557,7 +57557,7 @@
                 "1396324800000": 0.11009789138603672,
                 "1398916800000": 0.10921261229522636
             },
-            "last_modify": "2014-07-07T20:21:44.00Z",
+            "last_modify": "2014-07-18T18:56:58.00Z",
             "name": "cloudtest",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/SOASTA+CloudTest+Plugin",
             "title": "SOASTA CloudTest Plugin",
@@ -61379,7 +61379,7 @@
                 "1396324800000": 0.058639094325171726,
                 "1398916800000": 0.06928542070342317
             },
-            "last_modify": "2014-05-01T22:22:44.00Z",
+            "last_modify": "2014-07-20T23:59:16.00Z",
             "name": "appthwack",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/AppThwack+Plugin",
             "title": "AppThwack Plugin",
@@ -61993,7 +61993,7 @@
                 "1396324800000": 0.058639094325171726,
                 "1398916800000": 0.06341377488109917
             },
-            "last_modify": "2014-07-03T23:12:30.00Z",
+            "last_modify": "2014-07-10T14:44:12.00Z",
             "name": "youtrack-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/YouTrack+Plugin",
             "title": "YouTrack Plugin",
@@ -62241,7 +62241,7 @@
                 "1396324800000": 0.04308178358584045,
                 "1398916800000": 0.058716458223239974
             },
-            "last_modify": "2014-04-04T19:43:14.00Z",
+            "last_modify": "2014-07-20T20:32:46.00Z",
             "name": "crx-content-package-deployer",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/CRX+Content+Package+Deployer+Plugin",
             "title": "CRX Content Package Deployer Plugin",
@@ -64455,7 +64455,7 @@
                 "1396324800000": 0.03470477011081592,
                 "1398916800000": 0.043450179085197584
             },
-            "last_modify": "2014-03-02T00:54:54.00Z",
+            "last_modify": "2014-07-12T01:27:04.00Z",
             "name": "mesos",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Mesos+Plugin",
             "title": "Mesos Plugin",
@@ -64497,14 +64497,14 @@
                 "1396324800000": 0.015557310739331275,
                 "1398916800000": 0.039927191591803184
             },
-            "last_modify": "2014-03-27T22:20:50.00Z",
+            "last_modify": "2014-07-15T13:33:24.00Z",
             "name": "google-storage-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Google+Cloud+Storage+Plugin",
             "title": "Google Cloud Storage Plugin",
             "total_installation": "34"
         },
         {
-            "describe": "A Jenkins plugin, to poll an email inbox, and trigger jobs based on new emails.",
+            "describe": "",
             "installations": {
                 "1396324800000": 20,
                 "1398916800000": 34
@@ -64513,7 +64513,7 @@
                 "1396324800000": 0.023934324214355807,
                 "1398916800000": 0.039927191591803184
             },
-            "last_modify": "2014-04-19T07:03:56.00Z",
+            "last_modify": "2014-07-11T20:06:10.00Z",
             "name": "poll-mailbox-trigger",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/poll-mailbox-trigger-plugin",
             "title": "poll-mailbox-trigger-plugin",
@@ -68281,7 +68281,7 @@
                 "1396324800000": 0.013163878317895695,
                 "1398916800000": 0.012917620809112794
             },
-            "last_modify": "2014-06-02T22:15:56.00Z",
+            "last_modify": "2014-07-18T16:27:46.00Z",
             "name": "kiuwanJenkinsPlugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Kiuwan+Plugin",
             "title": "Kiuwan Plugin",
@@ -69607,7 +69607,7 @@
             "installationsPercentage": {
                 "1398916800000": 0.0070459749867887965
             },
-            "last_modify": "2014-05-26T22:16:30.00Z",
+            "last_modify": "2014-07-08T11:01:58.00Z",
             "name": "allure-jenkins-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Allure+Plugin",
             "title": "Allure Plugin",
@@ -69845,7 +69845,7 @@
                 "1396324800000": 0.0011967162107177905,
                 "1398916800000": 0.0070459749867887965
             },
-            "last_modify": "2013-09-26T21:54:04.00Z",
+            "last_modify": "2014-07-10T14:46:32.00Z",
             "name": "meliora-testlab",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Meliora+Testlab+Plugin",
             "title": "Meliora Testlab Plugin",
@@ -69927,7 +69927,7 @@
                 "1396324800000": 0.005983581053588952,
                 "1398916800000": 0.005871645822323997
             },
-            "last_modify": "2014-06-06T15:46:18.00Z",
+            "last_modify": "2014-07-18T04:40:08.00Z",
             "name": "GatekeeperPlugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Gatekeeper+plugin",
             "title": "Gatekeeper plugin",
