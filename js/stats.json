@@ -1,5 +1,5 @@
 {
-    "Modify_date": "2014-08-14",
+    "Modify_date": "2014-08-15",
     "plugins": [
         {
             "describe": "This plugin allows you to manage slaves running on \\*nix machines over SSH.",
@@ -12671,7 +12671,7 @@
                 "0.9": 0.010447380029252664,
                 "1": 0.003482460009750888
             },
-            "last_modify": "2014-08-03T05:24:54.00Z",
+            "last_modify": "2014-08-15T02:21:20.00Z",
             "name": "artifactdeployer",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/ArtifactDeployer+Plugin",
             "title": "ArtifactDeployer Plugin",
@@ -21527,7 +21527,7 @@
                 "1.5.2-SNAPSHOT (private)": 0.001160820003250296,
                 "10.0-SNAPSHOT (private)": 0.002321640006500592
             },
-            "last_modify": "2014-07-27T12:14:20.00Z",
+            "last_modify": "2014-08-13T21:47:42.00Z",
             "name": "build-monitor-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Build+Monitor+Plugin",
             "title": "Build Monitor Plugin",
@@ -21635,7 +21635,7 @@
                 "1.9-SNAPSHOT (private)": 0.004643280013001184,
                 "1.92-SNAPSHOT3": 0.001160820003250296
             },
-            "last_modify": "2014-08-11T14:58:22.00Z",
+            "last_modify": "2014-08-14T18:20:48.00Z",
             "name": "ghprb",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin",
             "title": "GitHub pull request builder plugin",
@@ -45563,7 +45563,7 @@
                 "1.4.2": 0.002321640006500592,
                 "1.5": 0.756854642119193
             },
-            "last_modify": "2011-05-16T03:27:22.00Z",
+            "last_modify": "2014-08-14T21:58:22.00Z",
             "name": "jsunit",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/JSUnit+plugin",
             "title": "JSUnit plugin",
@@ -57191,7 +57191,7 @@
                 "1.6.0": 0.1706405404777935,
                 "1.6.1-SNAPSHOT (private)": 0.004643280013001184
             },
-            "last_modify": "2014-08-11T16:08:04.00Z",
+            "last_modify": "2014-08-14T18:04:08.00Z",
             "name": "debian-package-builder",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Debian+Package+Builder+Plugin",
             "title": "Debian Package Builder Plugin",
@@ -60419,7 +60419,7 @@
                 "1.6": 0.30413484085157755,
                 "1.7-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2011-10-13T03:53:08.00Z",
+            "last_modify": "2014-08-14T21:46:56.00Z",
             "name": "gallio",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Gallio+Plugin",
             "title": "Gallio Plugin",
@@ -77072,7 +77072,7 @@
             "total_installation": "81"
         },
         {
-            "describe": "The Script SCM plugin allows SCM polling to be managed using scripts.",
+            "describe": "",
             "installations": {
                 "1325394000000": 3,
                 "1328072400000": 4,
@@ -77153,8 +77153,8 @@
             },
             "last_modify": "2013-09-29T22:17:50.00Z",
             "name": "script-scm",
-            "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/script-scm",
-            "title": "script-scm",
+            "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Script+SCM+Plugin",
+            "title": "Script SCM Plugin",
             "total_installation": "81"
         },
         {
@@ -83071,7 +83071,7 @@
                 "1.3": 0.00580410001625148,
                 "1.4": 0.024377220068256215
             },
-            "last_modify": "2014-07-24T22:00:08.00Z",
+            "last_modify": "2014-08-15T08:27:06.00Z",
             "name": "rubymotion",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+RubyMotion+Plugin",
             "title": "Jenkins RubyMotion Plugin",
@@ -85301,9 +85301,9 @@
                 "2.0": 0.008125740022752072,
                 "2.1": 0.002321640006500592
             },
-            "last_modify": "None",
+            "last_modify": "2014-08-14T15:27:08.00Z",
             "name": "rqm-plugin",
-            "plugin_info_url": "None",
+            "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/RQM+Plugin",
             "title": "RQM Plugin",
             "total_installation": "24"
         },
