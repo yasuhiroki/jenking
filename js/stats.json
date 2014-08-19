@@ -1,5 +1,5 @@
 {
-    "Modify_date": "2014-08-15",
+    "Modify_date": "2014-08-18",
     "plugins": [
         {
             "describe": "This plugin allows you to manage slaves running on \\*nix machines over SSH.",
@@ -2185,7 +2185,7 @@
                 "1.7.1": 9.166995565667587,
                 "1.8-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-08-12T01:55:20.00Z",
+            "last_modify": "2014-08-15T19:48:44.00Z",
             "name": "ssh-credentials",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/SSH+Credentials+Plugin",
             "title": "SSH Credentials Plugin",
@@ -2671,7 +2671,7 @@
                 "3.0.1": 0.001160820003250296,
                 "IR1.6.0-1": 0.001160820003250296
             },
-            "last_modify": "2014-08-02T17:25:12.00Z",
+            "last_modify": "2014-08-16T00:50:46.00Z",
             "name": "git",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin",
             "title": "Git Plugin",
@@ -3545,7 +3545,7 @@
                 "1.8": 0.008125740022752072,
                 "1.9": 0.01741230004875444
             },
-            "last_modify": "2014-06-11T14:46:58.00Z",
+            "last_modify": "2014-08-17T03:09:22.00Z",
             "name": "analysis-core",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Static+Code+Analysis+Plug-ins",
             "title": "Static Code Analysis Plug-ins",
@@ -8341,7 +8341,7 @@
                 "4.8": 0.00580410001625148,
                 "4.9": 0.002321640006500592
             },
-            "last_modify": "2014-03-10T21:00:42.00Z",
+            "last_modify": "2014-08-17T03:47:38.00Z",
             "name": "findbugs",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/FindBugs+Plugin",
             "title": "FindBugs Plugin",
@@ -9031,7 +9031,7 @@
                 "4.9": 0.01160820003250296,
                 "5.0.2-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-03-08T16:36:24.00Z",
+            "last_modify": "2014-08-17T03:35:52.00Z",
             "name": "warnings",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Warnings+Plugin",
             "title": "Warnings Plugin",
@@ -14879,7 +14879,7 @@
                 "4.8": 0.006964920019501776,
                 "4.9": 0.004643280013001184
             },
-            "last_modify": "2014-02-10T20:35:54.00Z",
+            "last_modify": "2014-08-17T03:43:16.00Z",
             "name": "tasks",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Task+Scanner+Plugin",
             "title": "Task Scanner Plugin",
@@ -33803,7 +33803,7 @@
                 "0.8.1-ZYU-HBO": 0.001160820003250296,
                 "0.8.2-SNAPSHOT (private)": 0.004643280013001184
             },
-            "last_modify": "2014-08-07T16:12:16.00Z",
+            "last_modify": "2014-08-17T17:00:14.00Z",
             "name": "delivery-pipeline-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Delivery+Pipeline+Plugin",
             "title": "Delivery Pipeline Plugin",
@@ -39025,7 +39025,7 @@
                 "0.8.4-SNAPSHOT (private)": 0.001160820003250296,
                 "99.0.6.3": 0.001160820003250296
             },
-            "last_modify": "2014-07-19T01:27:22.00Z",
+            "last_modify": "2014-08-16T20:59:36.00Z",
             "name": "repository-connector",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Repository+Connector+Plugin",
             "title": "Repository Connector Plugin",
@@ -44229,7 +44229,7 @@
                 "1.0.0-SNAPSHOT (private)": 0.001160820003250296,
                 "1.0.1-SNAPSHOT (private)": 0.002321640006500592
             },
-            "last_modify": "2014-07-22T15:13:10.00Z",
+            "last_modify": "2014-08-15T17:40:28.00Z",
             "name": "multi-slave-config-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Multi+slave+config+plugin",
             "title": "Multi slave config plugin",
@@ -60765,7 +60765,7 @@
                 "1.5.1": 0.12652938035428227,
                 "1.5.2": 0.013929840039003553
             },
-            "last_modify": "2014-06-23T18:32:54.00Z",
+            "last_modify": "2014-08-17T14:28:22.00Z",
             "name": "clearcase-ucm-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/ClearCase+UCM+Plugin",
             "title": "ClearCase UCM Plugin",
@@ -64251,7 +64251,7 @@
                 "1.6-SNAPSHOT (private)": 0.001160820003250296,
                 "1.7-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-08-07T01:58:52.00Z",
+            "last_modify": "2014-08-16T04:21:18.00Z",
             "name": "docker-build-step",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Docker+build+step+plugin",
             "title": "Docker build step plugin",
@@ -78229,7 +78229,7 @@
                 "1.1.5": 0.03134214008775799,
                 "1.1.6": 0.010447380029252664
             },
-            "last_modify": "2014-06-23T17:46:00.00Z",
+            "last_modify": "2014-08-17T14:34:18.00Z",
             "name": "config-rotator",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Config+Rotator+Plugin",
             "title": "Config Rotator Plugin",
@@ -81111,14 +81111,14 @@
                 "0.5.4.1": 0.001160820003250296,
                 "1.0": 0.001160820003250296
             },
-            "last_modify": "2014-07-10T14:44:12.00Z",
+            "last_modify": "2014-08-16T19:28:00.00Z",
             "name": "youtrack-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/YouTrack+Plugin",
             "title": "YouTrack Plugin",
             "total_installation": "49"
         },
         {
-            "describe": "",
+            "describe": "A Jenkins plugin, to poll an email inbox, and trigger jobs based on new emails.",
             "installations": {
                 "1396324800000": 20,
                 "1398916800000": 34,
