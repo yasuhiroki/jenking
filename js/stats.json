@@ -1,5 +1,5 @@
 {
-    "Modify_date": "2014-08-26",
+    "Modify_date": "2014-09-01",
     "plugins": [
         {
             "describe": "This plugin allows you to manage slaves running on \\*nix machines over SSH.",
@@ -3285,7 +3285,7 @@
                 "5.0.0": 0.001160820003250296,
                 "99-2.37.2.2-eXPRS": 0.002321640006500592
             },
-            "last_modify": "2014-06-03T00:49:02.00Z",
+            "last_modify": "2014-08-26T23:32:42.00Z",
             "name": "email-ext",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Email-ext+plugin",
             "title": "Email-ext plugin",
@@ -8059,7 +8059,7 @@
                 "0.8": 0.16483644046154203,
                 "0.9": 0.00580410001625148
             },
-            "last_modify": "2014-08-03T14:54:00.00Z",
+            "last_modify": "2014-08-26T19:01:48.00Z",
             "name": "ws-cleanup",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Workspace+Cleanup+Plugin",
             "title": "Workspace Cleanup Plugin",
@@ -12169,7 +12169,7 @@
                 "1.9": 0.001160820003250296,
                 "10.0": 0.001160820003250296
             },
-            "last_modify": "2014-06-08T16:34:34.00Z",
+            "last_modify": "2014-08-30T14:46:40.00Z",
             "name": "instant-messaging",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Instant+Messaging+Plugin",
             "title": "Instant Messaging Plugin",
@@ -21635,7 +21635,7 @@
                 "1.9-SNAPSHOT (private)": 0.004643280013001184,
                 "1.92-SNAPSHOT3": 0.001160820003250296
             },
-            "last_modify": "2014-08-20T17:52:22.00Z",
+            "last_modify": "2014-08-27T13:14:46.00Z",
             "name": "ghprb",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin",
             "title": "GitHub pull request builder plugin",
@@ -31862,7 +31862,7 @@
             "total_installation": "1506"
         },
         {
-            "describe": "Ruby metric reports for Jenkins. <a href='http://eigenclass.org/hiki.rb?rcov'>Rcov</a>, Rails stats, Rails notes and <a href='http://ruby.sadi.st/Flog.html'>Flog</a>.",
+            "describe": "",
             "installations": {
                 "1228107600000": 15,
                 "1230786000000": 59,
@@ -32017,10 +32017,10 @@
                 "1.5.0": 1.6994404847584335,
                 "1.5.1-SNAPSHOT (private)": 0.006964920019501776
             },
-            "last_modify": "2011-03-11T03:33:44.00Z",
+            "last_modify": "None",
             "name": "rubyMetrics",
-            "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Ruby+metrics+plugin",
-            "title": "Ruby metrics plugin",
+            "plugin_info_url": "None",
+            "title": "Jenkins ruby metrics plugin",
             "total_installation": "1484"
         },
         {
@@ -33803,7 +33803,7 @@
                 "0.8.1-ZYU-HBO": 0.001160820003250296,
                 "0.8.2-SNAPSHOT (private)": 0.004643280013001184
             },
-            "last_modify": "2014-08-17T17:00:14.00Z",
+            "last_modify": "2014-08-26T23:39:04.00Z",
             "name": "delivery-pipeline-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Delivery+Pipeline+Plugin",
             "title": "Delivery Pipeline Plugin",
@@ -50113,7 +50113,7 @@
             "installationsPercentagePerVersion": {
                 "1.0": 0.6129129617161563
             },
-            "last_modify": "2012-05-11T18:03:36.00Z",
+            "last_modify": "2014-08-26T18:59:26.00Z",
             "name": "svn-workspace-cleaner",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/SVN+Workspace+Cleaner",
             "title": "SVN Workspace Cleaner",
@@ -53065,7 +53065,7 @@
                 "1.0.4-SNAPSHOT (private)": 0.002321640006500592,
                 "1.0.4.11-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2013-10-22T01:18:34.00Z",
+            "last_modify": "2014-08-31T21:57:52.00Z",
             "name": "vstestrunner",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/VsTestRunner+Plugin",
             "title": "VsTestRunner Plugin",
@@ -67046,7 +67046,7 @@
             "total_installation": "195"
         },
         {
-            "describe": "Send build notifications to an AWS SNS Topic.",
+            "describe": "Send build notifications to an AWS SNS Topic.  From version 1.7 on you can customize the SNS subject and payload message making use of build and environment variables.",
             "installations": {
                 "1325394000000": 25,
                 "1328072400000": 33,
@@ -67841,7 +67841,7 @@
                 "2.5": 0.004643280013001184,
                 "2.6": 0.10331298028927635
             },
-            "last_modify": "2014-07-22T13:43:38.00Z",
+            "last_modify": "2014-08-26T15:12:12.00Z",
             "name": "support-core",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Support+Core+Plugin",
             "title": "Support Core Plugin",
@@ -81175,7 +81175,7 @@
                 "1.0": 0.010447380029252664,
                 "1.2.1": 0.044111160123511246
             },
-            "last_modify": "2014-07-25T01:24:50.00Z",
+            "last_modify": "2014-08-27T19:34:06.00Z",
             "name": "crx-content-package-deployer",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/CRX+Content+Package+Deployer+Plugin",
             "title": "CRX Content Package Deployer Plugin",
@@ -84805,7 +84805,7 @@
                 "0.1": 0.016251480045504144,
                 "0.4": 0.016251480045504144
             },
-            "last_modify": "2014-07-15T13:33:24.00Z",
+            "last_modify": "2014-08-28T14:40:28.00Z",
             "name": "google-storage-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Google+Cloud+Storage+Plugin",
             "title": "Google Cloud Storage Plugin",
@@ -85329,7 +85329,7 @@
                 "0.1": 0.010447380029252664,
                 "0.2": 0.016251480045504144
             },
-            "last_modify": "2014-07-22T19:51:26.00Z",
+            "last_modify": "2014-08-27T21:13:18.00Z",
             "name": "durable-task",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Durable+Task+Plugin",
             "title": "Durable Task Plugin",
@@ -87551,7 +87551,7 @@
                 "2.0.1": 0.002321640006500592,
                 "2.0.14": 0.012769020035753255
             },
-            "last_modify": "2014-07-18T04:40:08.00Z",
+            "last_modify": "2014-08-27T18:43:54.00Z",
             "name": "GatekeeperPlugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Gatekeeper+plugin",
             "title": "Gatekeeper plugin",
