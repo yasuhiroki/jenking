@@ -1,5 +1,5 @@
 {
-    "Modify_date": "2014-09-01",
+    "Modify_date": "2014-09-05",
     "plugins": [
         {
             "describe": "This plugin allows you to manage slaves running on \\*nix machines over SSH.",
@@ -4849,7 +4849,7 @@
                 "1.55": 1.1677849232697979,
                 "1.55-SNAPSHOT (private)": 0.002321640006500592
             },
-            "last_modify": "2014-08-06T08:37:54.00Z",
+            "last_modify": "2014-09-01T02:56:56.00Z",
             "name": "github-api",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/GitHub+API+Plugin",
             "title": "GitHub API Plugin",
@@ -8717,7 +8717,7 @@
                 "2.6-SNAPSHOT (private)": 0.003482460009750888,
                 "2.7-SNAPSHOT (private)": 0.002321640006500592
             },
-            "last_modify": "2014-07-17T15:00:20.00Z",
+            "last_modify": "2014-09-03T17:55:00.00Z",
             "name": "jobConfigHistory",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin",
             "title": "JobConfigHistory Plugin",
@@ -21635,7 +21635,7 @@
                 "1.9-SNAPSHOT (private)": 0.004643280013001184,
                 "1.92-SNAPSHOT3": 0.001160820003250296
             },
-            "last_modify": "2014-08-27T13:14:46.00Z",
+            "last_modify": "2014-09-02T15:05:34.00Z",
             "name": "ghprb",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin",
             "title": "GitHub pull request builder plugin",
@@ -28531,7 +28531,7 @@
                 "1.9": 0.4631671812968681,
                 "1.9-SNAPSHOT (private)": 0.002321640006500592
             },
-            "last_modify": "2014-04-08T13:52:16.00Z",
+            "last_modify": "2014-09-02T09:20:22.00Z",
             "name": "naginator",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Naginator+Plugin",
             "title": "Naginator Plugin",
@@ -31862,7 +31862,7 @@
             "total_installation": "1506"
         },
         {
-            "describe": "",
+            "describe": "Ruby metric reports for Jenkins. <a href='http://eigenclass.org/hiki.rb?rcov'>Rcov</a>, Rails stats, Rails notes and <a href='http://ruby.sadi.st/Flog.html'>Flog</a>.",
             "installations": {
                 "1228107600000": 15,
                 "1230786000000": 59,
@@ -32017,10 +32017,10 @@
                 "1.5.0": 1.6994404847584335,
                 "1.5.1-SNAPSHOT (private)": 0.006964920019501776
             },
-            "last_modify": "None",
+            "last_modify": "2014-09-03T03:19:16.00Z",
             "name": "rubyMetrics",
-            "plugin_info_url": "None",
-            "title": "Jenkins ruby metrics plugin",
+            "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/RubyMetrics+plugin",
+            "title": "RubyMetrics plugin",
             "total_installation": "1484"
         },
         {
@@ -32481,7 +32481,7 @@
                 "1.4.2-JENKINS-21739": 0.001160820003250296,
                 "1.4.3-SNAPSHOT (private)": 0.002321640006500592
             },
-            "last_modify": "2014-03-14T18:11:52.00Z",
+            "last_modify": "2014-09-02T18:26:30.00Z",
             "name": "robot",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Robot+Framework+Plugin",
             "title": "Robot Framework Plugin",
@@ -36397,7 +36397,7 @@
                 "1.0-SNAPSHOT (private)": 0.001160820003250296,
                 "1.0.0": 0.001160820003250296
             },
-            "last_modify": "2013-08-23T03:44:30.00Z",
+            "last_modify": "2014-08-31T18:40:46.00Z",
             "name": "valgrind",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Valgrind+Plugin",
             "title": "Valgrind Plugin",
@@ -37989,7 +37989,7 @@
                 "1.5": 0.003482460009750888,
                 "1.9": 0.004643280013001184
             },
-            "last_modify": "2014-07-06T02:44:56.00Z",
+            "last_modify": "2014-09-01T18:29:30.00Z",
             "name": "job-dsl",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin",
             "title": "Job DSL Plugin",
@@ -79873,7 +79873,7 @@
                 "2.0-SNAPSHOT (private)": 0.001160820003250296,
                 "2.1-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2012-01-20T08:57:20.00Z",
+            "last_modify": "2014-09-02T07:46:38.00Z",
             "name": "plasticscm-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/PlasticSCM+Plugin",
             "title": "PlasticSCM Plugin",
@@ -81589,7 +81589,7 @@
                 "13.5.1": 0.00580410001625148,
                 "14.2.0": 0.03946788011051006
             },
-            "last_modify": "2014-02-27T18:36:30.00Z",
+            "last_modify": "2014-09-02T04:50:44.00Z",
             "name": "cloudbees-enterprise-plugins",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Enterprise+by+CloudBees",
             "title": "Jenkins Enterprise by CloudBees",
