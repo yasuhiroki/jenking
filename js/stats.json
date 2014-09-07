@@ -1,5 +1,5 @@
 {
-    "Modify_date": "2014-09-05",
+    "Modify_date": "2014-09-06",
     "plugins": [
         {
             "describe": "This plugin allows you to manage slaves running on \\*nix machines over SSH.",
