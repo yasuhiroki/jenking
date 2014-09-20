@@ -63,13 +63,23 @@ function appendPluginRows(plugins){
         }
         */
 
-        $('<tr id="'+ cnt +'" class="plugin">' +
-          '<td>' + (cnt + 1) + '</td>' +
-          '<td><a href="' + this.plugin_info_url + '">' + this.title + '</a><br/>' +
-          this.describe + '</td>' +
+        var printName = this.title;
+        if (printName == "None") {
+            printName = this.name;
+        }
+
+        var trValue = '<tr id="'+ cnt +'" class="plugin">' +
+          '<td>' + (cnt + 1) + '</td>';
+        if (this.plugin_info_url == "None") {
+            trValue += '<td>' + printName + '<br/>';
+        } else {
+            trValue += '<td><a href="' + this.plugin_info_url + '">' + printName + '</a><br/>';
+        }
+        trValue += this.describe + '</td>' +
           '<td>' + this.total_installation + '</td>' +
-          '</tr>'
-         ).appendTo('table.stats tbody');
+          '</tr>';
+
+        $(trValue).appendTo('table.stats tbody');
 
         cnt++;
 
