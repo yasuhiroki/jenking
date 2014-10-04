@@ -1,5 +1,5 @@
 {
-    "Modify_date": "2014-09-22",
+    "Modify_date": "2014-10-04",
     "plugins": [
         {
             "describe": "This plugin allows you to manage slaves running on \\*nix machines over SSH.",
@@ -223,7 +223,7 @@
                 "3.0.1": 0.001160820003250296,
                 "3.0.2": 0.02321640006500592
             },
-            "last_modify": "2014-02-05T15:20:12.00Z",
+            "last_modify": "2014-09-29T14:34:54.00Z",
             "name": "ssh-slaves",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/SSH+Slaves+plugin",
             "title": "SSH Slaves plugin",
@@ -1669,7 +1669,7 @@
                 "1.9": 1.9942887655840085,
                 "1.9-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-05-23T19:14:16.00Z",
+            "last_modify": "2014-10-03T14:38:54.00Z",
             "name": "ldap",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/LDAP+Plugin",
             "title": "LDAP Plugin",
@@ -3545,7 +3545,7 @@
                 "1.8": 0.008125740022752072,
                 "1.9": 0.01741230004875444
             },
-            "last_modify": "2014-09-10T03:05:16.00Z",
+            "last_modify": "2014-10-02T23:18:26.00Z",
             "name": "analysis-core",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Static+Code+Analysis+Plug-ins",
             "title": "Static Code Analysis Plug-ins",
@@ -6317,7 +6317,7 @@
                 "1.89": 3.1040326886912917,
                 "1.89-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-08-05T01:36:22.00Z",
+            "last_modify": "2014-09-23T03:53:32.00Z",
             "name": "xunit",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/xUnit+Plugin",
             "title": "xUnit Plugin",
@@ -9031,7 +9031,7 @@
                 "4.9": 0.01160820003250296,
                 "5.0.2-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-08-17T03:35:52.00Z",
+            "last_modify": "2014-09-24T15:44:16.00Z",
             "name": "warnings",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Warnings+Plugin",
             "title": "Warnings Plugin",
@@ -10781,7 +10781,7 @@
                 "1.8-SNAPSHOT (private)": 0.004643280013001184,
                 "1.9": 0.001160820003250296
             },
-            "last_modify": "2014-03-11T20:25:10.00Z",
+            "last_modify": "2014-09-28T16:28:40.00Z",
             "name": "plot",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Plot+Plugin",
             "title": "Plot Plugin",
@@ -11649,7 +11649,7 @@
                 "1.8": 0.054558540152763915,
                 "1.9": 0.11143872031202842
             },
-            "last_modify": "2014-09-18T17:30:14.00Z",
+            "last_modify": "2014-09-30T13:48:50.00Z",
             "name": "groovy",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Groovy+plugin",
             "title": "Groovy plugin",
@@ -12547,7 +12547,7 @@
                 "1.52.0-SNAPSHOT (private)": 0.001160820003250296,
                 "1.9.0": 0.001160820003250296
             },
-            "last_modify": "2014-08-06T23:47:34.00Z",
+            "last_modify": "2014-10-03T03:38:58.00Z",
             "name": "monitoring",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Monitoring",
             "title": "Monitoring",
@@ -14879,7 +14879,7 @@
                 "4.8": 0.006964920019501776,
                 "4.9": 0.004643280013001184
             },
-            "last_modify": "2014-09-11T04:18:54.00Z",
+            "last_modify": "2014-09-24T15:51:04.00Z",
             "name": "tasks",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Task+Scanner+Plugin",
             "title": "Task Scanner Plugin",
@@ -15491,7 +15491,7 @@
                 "1.2.3": 4.58756065284517,
                 "1.2.4-h-2": 0.006964920019501776
             },
-            "last_modify": "2011-02-14T18:04:38.00Z",
+            "last_modify": "2014-10-02T21:17:32.00Z",
             "name": "jdepend",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/JDepend+Plugin",
             "title": "JDepend Plugin",
@@ -20231,7 +20231,7 @@
                 "0.8.1": 0.006964920019501776,
                 "0.9": 0.004643280013001184
             },
-            "last_modify": "2014-07-03T00:03:28.00Z",
+            "last_modify": "2014-09-30T14:20:44.00Z",
             "name": "github-oauth",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Github+OAuth+Plugin",
             "title": "Github OAuth Plugin",
@@ -21635,7 +21635,7 @@
                 "1.9-SNAPSHOT (private)": 0.004643280013001184,
                 "1.92-SNAPSHOT3": 0.001160820003250296
             },
-            "last_modify": "2014-09-16T14:14:26.00Z",
+            "last_modify": "2014-09-29T14:39:32.00Z",
             "name": "ghprb",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin",
             "title": "GitHub pull request builder plugin",
@@ -22343,7 +22343,7 @@
                 "1.9-NSN_7": 0.002321640006500592,
                 "25.1.9": 0.001160820003250296
             },
-            "last_modify": "2014-01-18T21:57:40.00Z",
+            "last_modify": "2014-09-24T20:28:08.00Z",
             "name": "radiatorviewplugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Radiator+View+Plugin",
             "title": "Radiator View Plugin",
@@ -22711,7 +22711,7 @@
                 "1.8": 0.002321640006500592,
                 "1.9": 0.04875444013651243
             },
-            "last_modify": "2014-07-27T23:38:22.00Z",
+            "last_modify": "2014-09-28T03:26:52.00Z",
             "name": "cppcheck",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Cppcheck+Plugin",
             "title": "Cppcheck Plugin",
@@ -23495,7 +23495,7 @@
                 "1.0.9-SNAPSHOT (private)": 0.001160820003250296,
                 "1.0.9-beta-2": 0.001160820003250296
             },
-            "last_modify": "2014-06-02T23:07:42.00Z",
+            "last_modify": "2014-10-02T04:16:52.00Z",
             "name": "xvfb",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Xvfb+Plugin",
             "title": "Xvfb Plugin",
@@ -29315,7 +29315,7 @@
                 "0.2": 1.96062498548975,
                 "0.3-SNAPSHOT (private)": 0.002321640006500592
             },
-            "last_modify": "2012-02-19T23:29:22.00Z",
+            "last_modify": "2014-09-30T04:00:18.00Z",
             "name": "preSCMbuildstep",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/pre-scm-buildstep",
             "title": "pre-scm-buildstep",
@@ -29475,7 +29475,7 @@
                 "0.6": 1.9269612053954914,
                 "0.7-SNAPSHOT (private)": 0.00580410001625148
             },
-            "last_modify": "2011-02-14T21:18:36.00Z",
+            "last_modify": "2014-10-02T19:53:32.00Z",
             "name": "dependencyanalyzer",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Dependency+Analyzer+Plugin",
             "title": "Dependency Analyzer Plugin",
@@ -32245,7 +32245,7 @@
                 "1.2-SNAPSHOT (private)": 0.001160820003250296,
                 "1.3-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-04-30T02:13:16.00Z",
+            "last_modify": "2014-09-24T20:36:50.00Z",
             "name": "buildtriggerbadge",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Build+Trigger+Badge+Plugin",
             "title": "Build Trigger Badge Plugin",
@@ -32481,7 +32481,7 @@
                 "1.4.2-JENKINS-21739": 0.001160820003250296,
                 "1.4.3-SNAPSHOT (private)": 0.002321640006500592
             },
-            "last_modify": "2014-09-02T18:26:30.00Z",
+            "last_modify": "2014-10-02T23:24:52.00Z",
             "name": "robot",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Robot+Framework+Plugin",
             "title": "Robot Framework Plugin",
@@ -33597,7 +33597,7 @@
                 "2.2-SNAPSHOT (private)": 0.001160820003250296,
                 "origin/multiple_google_domains-7": 0.001160820003250296
             },
-            "last_modify": "2014-05-15T21:28:32.00Z",
+            "last_modify": "2014-10-02T13:30:02.00Z",
             "name": "openid",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/OpenID+plugin",
             "title": "OpenID plugin",
@@ -35287,7 +35287,7 @@
                 "1.5": 0.008125740022752072,
                 "1.6": 1.2931534836208298
             },
-            "last_modify": "2012-07-02T16:00:42.00Z",
+            "last_modify": "2014-09-24T02:46:54.00Z",
             "name": "slave-setup",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Slave+Setup+Plugin",
             "title": "Slave Setup Plugin",
@@ -37533,7 +37533,7 @@
                 "1.9": 0.2344856406565598,
                 "1.9-JES": 0.001160820003250296
             },
-            "last_modify": "2014-07-01T23:11:56.00Z",
+            "last_modify": "2014-10-02T16:21:24.00Z",
             "name": "swarm",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Swarm+Plugin",
             "title": "Swarm Plugin",
@@ -45677,7 +45677,7 @@
                 "1.1.6-SNAPSHOT-AVRS-2": 0.001160820003250296,
                 "1.1.9": 0.010447380029252664
             },
-            "last_modify": "2014-07-08T11:16:42.00Z",
+            "last_modify": "2014-09-26T15:42:24.00Z",
             "name": "vsphere-cloud",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/vSphere+Cloud+Plugin",
             "title": "vSphere Cloud Plugin",
@@ -48597,7 +48597,7 @@
                 "1.91": 0.001160820003250296,
                 "1.92": 0.01973394005525503
             },
-            "last_modify": "2014-09-19T11:53:08.00Z",
+            "last_modify": "2014-09-29T16:44:28.00Z",
             "name": "sauce-ondemand",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Sauce+OnDemand+Plugin",
             "title": "Sauce OnDemand Plugin",
@@ -53499,7 +53499,7 @@
                 "0.9.1": 0.001160820003250296,
                 "05.05.0932": 0.001160820003250296
             },
-            "last_modify": "2014-05-20T14:45:34.00Z",
+            "last_modify": "2014-09-30T04:27:28.00Z",
             "name": "cpptest",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Cpptest+Plugin",
             "title": "Cpptest Plugin",
@@ -55267,7 +55267,7 @@
                 "0.6.3-SNAPSHOT (private)": 0.00580410001625148,
                 "0.7-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-07-22T23:23:10.00Z",
+            "last_modify": "2014-10-03T23:04:46.00Z",
             "name": "docker-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin",
             "title": "Docker Plugin",
@@ -56473,7 +56473,7 @@
                 "3.0.4": 0.10331298028927635,
                 "3.0.5": 0.13465512037703434
             },
-            "last_modify": "2014-09-08T13:58:22.00Z",
+            "last_modify": "2014-10-03T13:05:26.00Z",
             "name": "metrics",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Metrics+Plugin",
             "title": "Metrics Plugin",
@@ -57191,7 +57191,7 @@
                 "1.6.0": 0.1706405404777935,
                 "1.6.1-SNAPSHOT (private)": 0.004643280013001184
             },
-            "last_modify": "2014-08-14T18:04:08.00Z",
+            "last_modify": "2014-10-02T17:15:36.00Z",
             "name": "debian-package-builder",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Debian+Package+Builder+Plugin",
             "title": "Debian Package Builder Plugin",
@@ -60035,7 +60035,7 @@
                 "4.0.0": 0.052236900146263324,
                 "4.0.1-SNAPSHOT (***)": 0.002321640006500592
             },
-            "last_modify": "2014-07-22T03:01:00.00Z",
+            "last_modify": "2014-10-02T02:03:56.00Z",
             "name": "deployit-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/XL+Deploy+Plugin",
             "title": "XL Deploy Plugin",
@@ -61407,7 +61407,7 @@
                 "0.3.1": 0.022055580061755623,
                 "0.4": 0.2565412207183154
             },
-            "last_modify": "2014-01-19T05:01:32.00Z",
+            "last_modify": "2014-09-30T16:04:40.00Z",
             "name": "ownership",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Ownership+Plugin",
             "title": "Ownership Plugin",
@@ -64251,7 +64251,7 @@
                 "1.6-SNAPSHOT (private)": 0.001160820003250296,
                 "1.7-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-09-19T11:57:48.00Z",
+            "last_modify": "2014-10-02T01:18:06.00Z",
             "name": "docker-build-step",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Docker+build+step+plugin",
             "title": "Docker build step plugin",
@@ -67841,7 +67841,7 @@
                 "2.5": 0.004643280013001184,
                 "2.6": 0.10331298028927635
             },
-            "last_modify": "2014-09-05T23:01:26.00Z",
+            "last_modify": "2014-09-25T15:58:36.00Z",
             "name": "support-core",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Support+Core+Plugin",
             "title": "Support Core Plugin",
@@ -69441,7 +69441,7 @@
                 "1.4.4-ERICSSON": 0.001160820003250296,
                 "1.5-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-07-28T15:43:44.00Z",
+            "last_modify": "2014-10-03T02:19:10.00Z",
             "name": "jenkins-reviewbot",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Jenkins-Reviewbot",
             "title": "Jenkins-Reviewbot",
@@ -69949,7 +69949,7 @@
                 "1.4": 0.006964920019501776,
                 "1.5": 0.01160820003250296
             },
-            "last_modify": "2014-08-07T02:18:48.00Z",
+            "last_modify": "2014-09-29T16:07:54.00Z",
             "name": "wix",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/WIX+Toolset+Plugin",
             "title": "WIX Toolset Plugin",
@@ -70553,7 +70553,7 @@
                 "2.0.2": 0.05688018015926451,
                 "2.1.10-beta-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-09-20T08:15:30.00Z",
+            "last_modify": "2014-09-25T18:29:32.00Z",
             "name": "fogbugz",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Fogbugz+Plugin",
             "title": "Fogbugz Plugin",
@@ -73101,7 +73101,7 @@
             "installationsPercentagePerVersion": {
                 "0.1": 0.13697676038353493
             },
-            "last_modify": "2014-07-15T13:16:34.00Z",
+            "last_modify": "2014-10-04T07:58:28.00Z",
             "name": "google-oauth-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Google+OAuth+Plugin",
             "title": "Google OAuth Plugin",
@@ -73725,7 +73725,7 @@
                 "1.6": 0.001160820003250296,
                 "1.6.thales.1": 0.006964920019501776
             },
-            "last_modify": "2014-09-22T02:54:54.00Z",
+            "last_modify": "2014-09-24T04:32:08.00Z",
             "name": "dtkit",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/DTKit+Plugin",
             "title": "DTKit Plugin",
@@ -74012,7 +74012,7 @@
             "total_installation": "108"
         },
         {
-            "describe": "Enables a matrix job to scan a selenium grid server to create an axis for all available configurations   ",
+            "describe": "Creates an axis based on a local Selenium grid and also build against the SauceLabs Selenium capability at the same time. Both components rebuild before each build to take advantage of any new capabilities.  The Selenium grid uses all capabilities available and the SauceLab one a random subset, which can be configured or disabled. ",
             "installations": {
                 "1380600000000": 13,
                 "1383278400000": 29,
@@ -74043,7 +74043,7 @@
                 "0.0.3": 0.009286560026002368,
                 "0.0.4": 0.1160820003250296
             },
-            "last_modify": "2014-01-24T23:23:04.00Z",
+            "last_modify": "2014-09-25T01:36:44.00Z",
             "name": "selenium-axis",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Selenium+Axis+Plugin",
             "title": "Selenium Axis Plugin",
@@ -79377,7 +79377,7 @@
                 "1.3": 0.02553804007150651,
                 "1.4": 0.044111160123511246
             },
-            "last_modify": "2014-08-19T22:22:38.00Z",
+            "last_modify": "2014-10-02T19:14:56.00Z",
             "name": "script-security",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Script+Security+Plugin",
             "title": "Script Security Plugin",
@@ -83071,7 +83071,7 @@
                 "1.3": 0.00580410001625148,
                 "1.4": 0.024377220068256215
             },
-            "last_modify": "2014-08-15T08:27:06.00Z",
+            "last_modify": "2014-09-25T14:47:48.00Z",
             "name": "rubymotion",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+RubyMotion+Plugin",
             "title": "Jenkins RubyMotion Plugin",
@@ -84805,7 +84805,7 @@
                 "0.1": 0.016251480045504144,
                 "0.4": 0.016251480045504144
             },
-            "last_modify": "2014-08-28T14:40:28.00Z",
+            "last_modify": "2014-09-24T13:45:40.00Z",
             "name": "google-storage-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Google+Cloud+Storage+Plugin",
             "title": "Google Cloud Storage Plugin",
@@ -85081,7 +85081,7 @@
                 "1.0.0": 0.001160820003250296,
                 "1.0.1": 0.030181320084507697
             },
-            "last_modify": "2014-04-15T16:44:42.00Z",
+            "last_modify": "2014-09-28T03:30:22.00Z",
             "name": "syslog-logger",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Syslog+Logger+Plugin",
             "title": "Syslog Logger Plugin",
@@ -85209,7 +85209,7 @@
                 "1.3": 0.002321640006500592,
                 "1.4": 0.018573120052004736
             },
-            "last_modify": "2014-09-17T23:22:20.00Z",
+            "last_modify": "2014-09-24T18:44:46.00Z",
             "name": "mock-slave",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Mock+Slave+Plugin",
             "title": "Mock Slave Plugin",
@@ -85329,7 +85329,7 @@
                 "0.1": 0.010447380029252664,
                 "0.2": 0.016251480045504144
             },
-            "last_modify": "2014-08-27T21:13:18.00Z",
+            "last_modify": "2014-09-24T18:40:20.00Z",
             "name": "durable-task",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Durable+Task+Plugin",
             "title": "Durable Task Plugin",
@@ -86041,7 +86041,7 @@
                 "2.0": 0.00580410001625148,
                 "2.0-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-06-18T20:01:52.00Z",
+            "last_modify": "2014-09-24T21:19:14.00Z",
             "name": "pretested-integration",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Pretested+Integration+Plugin",
             "title": "Pretested Integration Plugin",
@@ -86349,7 +86349,7 @@
                 "1.3.9": 0.003482460009750888,
                 "1.4-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-09-15T12:32:38.00Z",
+            "last_modify": "2014-10-02T10:48:58.00Z",
             "name": "allure-jenkins-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Allure+Plugin",
             "title": "Allure Plugin",
@@ -87575,7 +87575,7 @@
                 "1.2": 0.004643280013001184,
                 "1.2.1": 0.009286560026002368
             },
-            "last_modify": "2014-09-05T20:39:00.00Z",
+            "last_modify": "2014-10-01T21:22:48.00Z",
             "name": "change-assembly-version-plugin",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/Change+Assembly+Version",
             "title": "Change Assembly Version",
@@ -90134,7 +90134,7 @@
             "total_installation": "5"
         },
         {
-            "describe": "Provides full integration between Jenkins and ElasticBox ([http://elasticbox.com]). With this plugin, Jenkins can launch, provision, and manage Jenkins slaves on-demand in different cloud providers via ElasticBox. ",
+            "describe": "Provides full integration between Jenkins and ElasticBox ([http://elasticbox.com]). With this plugin, Jenkins can launch, provision, and manage Jenkins slaves on-demand in different cloud providers via ElasticBox. It also provides build steps to deploy and manage your applications, including complex, multi-tiear applications that are defined as boxes in ElasticBox. ",
             "installations": {
                 "1401595200000": 5
             },
@@ -90155,7 +90155,7 @@
                 "0.7.4": 0.001160820003250296,
                 "0.7.5-SNAPSHOT (private)": 0.001160820003250296
             },
-            "last_modify": "2014-09-05T16:56:28.00Z",
+            "last_modify": "2014-10-02T23:23:52.00Z",
             "name": "elasticbox",
             "plugin_info_url": "https://wiki.jenkins-ci.org/display/JENKINS/ElasticBox+CI",
             "title": "ElasticBox CI",
