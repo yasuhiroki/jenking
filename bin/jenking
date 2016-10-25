@@ -17,21 +17,21 @@ from creator import PluginStatsFormatter
 thread_num = 16
 
 print("Instantiate HTTPConnection")
-conn = HTTPConnection("stats.jenkins-ci.org")
+conn = HTTPConnection("stats.jenkins.io")
 
 print("Request")
-conn.request("GET", "/plugin-installation-trend/")
+conn.request("GET", "/plugin-installation-trend/index.html")
 
 print("Get Response")
 r1 = conn.getresponse()
 print(r1.status, r1.reason)
+print("Show got data")
+data= r1.read()
 conn.close()
 
-print("Show got data")
-data = r1.read()
 
 print("Parse HTML")
-parser = StatsHtmlParser(strict=False)
+parser = StatsHtmlParser()
 parser.feed(str(data))
 
 
